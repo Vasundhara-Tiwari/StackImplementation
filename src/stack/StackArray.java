@@ -18,7 +18,7 @@ public class StackArray {
 
             top++;
             arr[top] = data;
-
+            System.out.println("element "+data+" inserted successfully at "+top);
         }
     }
 }
