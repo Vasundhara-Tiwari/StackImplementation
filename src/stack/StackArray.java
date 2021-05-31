@@ -1,6 +1,9 @@
 package stack;
 
+import java.util.Scanner;
+
 public class StackArray {
+    Scanner scanner = new Scanner(System.in);
     int arr[];
     int top;
     StackArray(){
@@ -10,6 +13,11 @@ public class StackArray {
     void push(){
         if(top == arr.length-1){
             System.out.println("Stack Overflow");
+        } else {
+            int data = scanner.nextInt();
+
+            arr[top] = data;
+            top++;
         }
     }
 }
