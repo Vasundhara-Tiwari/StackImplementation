@@ -16,8 +16,9 @@ public class StackArray {
         } else {
             int data = scanner.nextInt();
 
-            arr[top] = data;
             top++;
+            arr[top] = data;
+
         }
     }
 }
