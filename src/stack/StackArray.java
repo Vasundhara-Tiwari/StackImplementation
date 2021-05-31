@@ -7,4 +7,9 @@ public class StackArray {
         arr = new int[10];
         top = -1;
     }
+    void push(){
+        if(top == arr.length-1){
+            System.out.println("Stack Overflow");
+        }
+    }
 }
