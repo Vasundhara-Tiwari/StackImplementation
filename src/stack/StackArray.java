@@ -21,4 +21,9 @@ public class StackArray {
             System.out.println("element "+data+" inserted successfully at "+top);
         }
     }
+    void pop(){
+        if(top == -1){
+            System.out.println("Stack Underflow");
+        }
+    }
 }
