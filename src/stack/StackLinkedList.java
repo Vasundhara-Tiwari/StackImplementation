@@ -16,5 +16,6 @@ public class StackLinkedList {
         newNode.data = data;
         newNode.next=top;
 
+        top = newNode;
     }
 }
