@@ -25,5 +25,9 @@ public class StackArray {
         if(top == -1){
             System.out.println("Stack Underflow");
         }
+        else {
+            System.out.println("Element deleted: "+arr[top]);
+            top--;
+        }
     }
 }
