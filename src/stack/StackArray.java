@@ -34,5 +34,10 @@ public class StackArray {
         if(top == -1){
             System.out.println("Stack is Empty :- Underflow!!");
         }
+        else {
+            for(int i=top; i>=0; i--){
+                System.out.println(arr[top]);
+            }
+        }
     }
 }
