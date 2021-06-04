@@ -31,6 +31,8 @@ public class StackArray {
         }
     }
     void traverse(){
-
+        if(top == -1){
+            System.out.println("Stack is Empty :- Underflow!!");
+        }
     }
 }
