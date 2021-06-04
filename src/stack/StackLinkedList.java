@@ -18,4 +18,12 @@ public class StackLinkedList {
 
         top = newNode;
     }
+    public void pop(){
+        if(top == null){
+            System.out.println("Cannot delete, stack is empty: Underflow");
+        } else {
+            System.out.println("Element deleted: "+top.data);
+            top = top.next;
+        }
+    }
 }
