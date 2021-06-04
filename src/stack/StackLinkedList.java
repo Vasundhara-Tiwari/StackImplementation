@@ -26,4 +26,14 @@ public class StackLinkedList {
             top = top.next;
         }
     }
+    public void traverse(){
+        if (top == null){
+            System.out.println("Stack is empty");
+        } else {
+            Node current;
+            for(current = top; current.next!=null; current=current.next){
+                System.out.println(current.data);
+            }
+        }
+    }
 }
