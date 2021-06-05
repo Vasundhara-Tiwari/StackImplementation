@@ -6,11 +6,11 @@ public class StackArray {
     Scanner scanner = new Scanner(System.in);
     int arr[];
     int top;
-    StackArray(){
+    public StackArray(){
         arr = new int[10];
         top = -1;
     }
-    void push(){
+    public void push(){
         if(top == arr.length-1){
             System.out.println("Stack Overflow");
         } else {
@@ -21,7 +21,7 @@ public class StackArray {
             System.out.println("element "+data+" inserted successfully at "+top);
         }
     }
-    void pop(){
+    public void pop(){
         if(top == -1){
             System.out.println("Stack Underflow");
         }
@@ -30,7 +30,7 @@ public class StackArray {
             top--;
         }
     }
-    void traverse(){
+    public void traverse(){
         if(top == -1){
             System.out.println("Stack is Empty :- Underflow!!");
         }

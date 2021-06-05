@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class StackLinkedList {
     Node top;
     static Scanner sc = new Scanner(System.in);
-    StackLinkedList(){
+    public StackLinkedList(){
         top = null;
     }
     public void push(){
