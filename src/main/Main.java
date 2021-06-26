@@ -9,6 +9,10 @@ public class Main {
     public static void main(String[] args) {
         StackLinkedList obj1 = new StackLinkedList();
         StackArray obj2 = new StackArray();
+        System.out.println("Stack using :-");
+        System.out.println("Press 1 for LinkedList");
+        System.out.println("Press 2 for Array \n");
+        System.out.print("Your choice: ");
         while(true){
             System.out.println("-------------------------------------------------------------");
             System.out.println("Press 1 for push");
