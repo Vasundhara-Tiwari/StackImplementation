@@ -15,6 +15,8 @@ public class Main {
         System.out.println("Press 2 for Array \n");
         System.out.print("Your choice: ");
         int c = scanner.nextInt();
+        if(c == 1) {
 
+        }
     }
 }
