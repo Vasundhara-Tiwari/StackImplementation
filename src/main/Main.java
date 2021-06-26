@@ -42,5 +42,8 @@ public class Main {
                 }
             }
         }
+        else if(c == 2 ) {
+
+        }
     }
 }
