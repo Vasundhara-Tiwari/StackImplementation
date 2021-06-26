@@ -40,4 +40,12 @@ public class StackArray {
             }
         }
     }
+    public void peek(){
+        if(top == -1){
+            System.out.println("Stack is Empty :- Underflow!!");
+        }
+        else {
+            System.out.println("Stack peek:-"+arr[top]);
+        }
+    }
 }

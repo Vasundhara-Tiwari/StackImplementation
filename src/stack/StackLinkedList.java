@@ -36,4 +36,11 @@ public class StackLinkedList {
             }
         }
     }
+    public void peek(){
+        if (top == null){
+            System.out.println("Stack is empty");
+        } else {
+            System.out.println("Stack peek:-"+top.data);
+        }
+    }
 }
