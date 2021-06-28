@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Stack using :-");
         System.out.println("Press 1 for LinkedList");
         System.out.println("Press 2 for Array \n");
-        System.out.print("Your c: ");
+        System.out.print("Your choice: ");
         int c = sc.nextInt();
         if(c == 1) {
             while(true){
