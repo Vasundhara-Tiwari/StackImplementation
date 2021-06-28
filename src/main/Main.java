@@ -24,7 +24,7 @@ public class Main {
                 System.out.println("Press 4 to peek");
                 System.out.println("Press 5 to exit");
                 System.out.println("-------------------------------------------------------------");
-                System.out.println("Enter your c");
+                System.out.println("Enter your choice");
                 Scanner scanner = new Scanner(System.in);
                 int choice = scanner.nextInt();
                 switch (choice){
