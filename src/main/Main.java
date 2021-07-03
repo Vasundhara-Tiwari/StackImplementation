@@ -14,6 +14,8 @@ public class Main {
 
         //object of scanner class
         Scanner sc = new Scanner(System.in);
+
+        //operating on Stack
         System.out.println("Stack using :-");
         System.out.println("Press 1 for LinkedList");
         System.out.println("Press 2 for Array \n");
