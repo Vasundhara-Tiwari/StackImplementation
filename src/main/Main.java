@@ -38,7 +38,7 @@ public class Main {
                         obj1.push();        //for insertion
                         break;
                     case 2:
-                        obj1.pop();
+                        obj1.pop();         //for deletion
                         break;
                     case 3:
                         obj1.traverse();
