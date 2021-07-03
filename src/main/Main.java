@@ -35,7 +35,7 @@ public class Main {
                 int choice = scanner.nextInt();
                 switch (choice){
                     case 1:
-                        obj1.push();
+                        obj1.push();        //for insertion
                         break;
                     case 2:
                         obj1.pop();
