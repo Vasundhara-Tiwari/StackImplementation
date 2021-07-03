@@ -7,8 +7,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        //objects of the classes
         StackLinkedList obj1 = new StackLinkedList();
         StackArray obj2 = new StackArray();
+
+        //object of scanner class
         Scanner sc = new Scanner(System.in);
         System.out.println("Stack using :-");
         System.out.println("Press 1 for LinkedList");
@@ -24,7 +28,7 @@ public class Main {
                 System.out.println("Press 4 to peek");
                 System.out.println("Press 5 to exit");
                 System.out.println("-------------------------------------------------------------");
-                System.out.println("Enter your choice");
+                System.out.println("Enter your choice ");
                 Scanner scanner = new Scanner(System.in);
                 int choice = scanner.nextInt();
                 switch (choice){
